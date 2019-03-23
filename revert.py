@@ -1,1 +1,1 @@
-print ("Hellorevert, hello siva");
+print ("Hellorevert");
