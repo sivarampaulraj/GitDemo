@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+    stages {
+        stage('Run Test') {
+            steps {
+                sh '''
+                    python Sample.py
+                   '''
+            }
+        }
+    }
+}
